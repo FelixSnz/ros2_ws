@@ -15,8 +15,8 @@ setup(
     zip_safe=True,
     maintainer='felix',
     maintainer_email='felixsanchez0124@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Minimal service/cliente node communication with rclpy',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
