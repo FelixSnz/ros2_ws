@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000285] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000348] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000392] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000439] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.000485] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.097874] (-) TimerEvent: {}
+[0.198346] (-) TimerEvent: {}
+[0.298954] (-) TimerEvent: {}
+[0.399650] (-) TimerEvent: {}
+[0.500347] (-) TimerEvent: {}
+[0.597554] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/felix/ros2_dev_ws/build/py_srvcli/build', 'install', '--prefix', '/home/felix/ros2_dev_ws/install/py_srvcli', '--record', '/home/felix/ros2_dev_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/felix/ros2_dev_ws/src/py_srvcli', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'felix', 'LC_TIME': 'es_MX.UTF-8', 'SSH_AGENT_PID': '1670', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/felix/ros2_dev_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/felix', 'OLDPWD': '/home/felix/ros2_dev_ws/src/py_srvcli/py_srvcli', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'MANAGERPID': '1314', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/felix/ros2_dev_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'felix', 'JOURNAL_STREAM': '8:49545', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'felix', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/felix/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/A315-41:@/tmp/.ICE-unix/1736,unix/A315-41:/tmp/.ICE-unix/1736', 'INVOCATION_ID': '4b7f1d0bf1fa47b9bd92a06de8b213b9', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5848ab79_0695_444f_a4b0_e0666c1cb5f9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/felix/ros2_dev_ws/install/turtlesim:/home/felix/ros2_dev_ws/install/py_pubsub:/home/felix/ros2_dev_ws/install/my_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/felix/ros2_dev_ws/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/felix/ros2_dev_ws/install/py_srvcli/lib/python3.8/site-packages:/home/felix/ros2_dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/felix/ros2_dev_ws/install/py_pubsub/lib/python3.8/site-packages:/home/felix/ros2_dev_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/felix/ros2_dev_ws/install/turtlesim'}, 'shell': False}
+[0.601970] (-) TimerEvent: {}
+[0.704645] (-) TimerEvent: {}
+[0.805145] (-) TimerEvent: {}
+[0.905588] (-) TimerEvent: {}
+[1.006089] (-) TimerEvent: {}
+[1.106662] (-) TimerEvent: {}
+[1.207238] (-) TimerEvent: {}
+[1.220693] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[1.221902] (py_srvcli) StdoutLine: {'line': b'creating ../../build/py_srvcli/py_srvcli.egg-info\n'}
+[1.222243] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[1.222681] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[1.222951] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[1.223213] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[1.223433] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[1.284940] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.307398] (-) TimerEvent: {}
+[1.407850] (-) TimerEvent: {}
+[1.462577] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.464176] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.464501] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[1.464675] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[1.464932] (py_srvcli) StdoutLine: {'line': b'creating /home/felix/ros2_dev_ws/build/py_srvcli/build\n'}
+[1.465157] (py_srvcli) StdoutLine: {'line': b'creating /home/felix/ros2_dev_ws/build/py_srvcli/build/lib\n'}
+[1.465348] (py_srvcli) StdoutLine: {'line': b'creating /home/felix/ros2_dev_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.465538] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/service_member_function.py -> /home/felix/ros2_dev_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.465711] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /home/felix/ros2_dev_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.465899] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/__init__.py -> /home/felix/ros2_dev_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.466168] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[1.468335] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[1.470894] (py_srvcli) StdoutLine: {'line': b'creating /home/felix/ros2_dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.471237] (py_srvcli) StdoutLine: {'line': b'copying /home/felix/ros2_dev_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/felix/ros2_dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.471500] (py_srvcli) StdoutLine: {'line': b'copying /home/felix/ros2_dev_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/felix/ros2_dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.471675] (py_srvcli) StdoutLine: {'line': b'copying /home/felix/ros2_dev_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/felix/ros2_dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[1.472651] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/felix/ros2_dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc\n'}
+[1.476215] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/felix/ros2_dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc\n'}
+[1.477118] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/felix/ros2_dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc\n'}
+[1.477581] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[1.478703] (py_srvcli) StdoutLine: {'line': b'creating /home/felix/ros2_dev_ws/install/py_srvcli/share/ament_index\n'}
+[1.479044] (py_srvcli) StdoutLine: {'line': b'creating /home/felix/ros2_dev_ws/install/py_srvcli/share/ament_index/resource_index\n'}
+[1.479276] (py_srvcli) StdoutLine: {'line': b'creating /home/felix/ros2_dev_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.479485] (py_srvcli) StdoutLine: {'line': b'copying resource/py_srvcli -> /home/felix/ros2_dev_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.479649] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/felix/ros2_dev_ws/install/py_srvcli/share/py_srvcli\n'}
+[1.479809] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.507947] (-) TimerEvent: {}
+[1.522708] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/felix/ros2_dev_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info\n'}
+[1.524367] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[1.608125] (-) TimerEvent: {}
+[1.652181] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/felix/ros2_dev_ws/install/py_srvcli/lib/py_srvcli\n'}
+[1.652547] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/felix/ros2_dev_ws/install/py_srvcli/lib/py_srvcli\n'}
+[1.652952] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/felix/ros2_dev_ws/build/py_srvcli/install.log'\n"}
+[1.707344] (py_srvcli) CommandEnded: {'returncode': 0}
+[1.708362] (-) TimerEvent: {}
+[1.758225] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[1.759493] (-) EventReactorShutdown: {}
